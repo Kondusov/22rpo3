@@ -1,0 +1,11 @@
+.logo img{
+    max-height: 55px;
+}
+.big-banner{
+    min-height: 858px;
+    display: flex;
+    background-image: url('../img/big-banner-1.png');
+}
+.main-navigation a{
+    color: #fff;
+}
