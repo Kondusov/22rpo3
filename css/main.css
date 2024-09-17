@@ -3,9 +3,45 @@
 }
 .big-banner{
     min-height: 858px;
-    display: flex;
-    background-image: url('../img/big-banner-1.png');
+    /* display: flex; */
+    background: url('../img/big-banner-1.png') no-repeat;
+    background-size: contain;
 }
 .main-navigation a{
     color: #fff;
+    padding-right: 10px;
+    text-decoration: none;
+}
+.main-navigation a:hover{
+    color: #fa8507;
+    transition: 1s;
+}
+header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.phone-text{
+    a:hover{color: #fa8507;}
+    button:hover{
+        color: #fa8507;
+        background-color: #fff;
+        transition: 1s;
+        cursor: pointer;
+    }
+    a{color: #fff;}
+    p{margin: 0;}
+    button{
+        margin-top: 7px ;
+        color: #fff;
+        background-color: #fa8507;
+        border-radius: 5px;
+        padding: 5px 10px;
+        border: none;
+    }
+    color: #fff;
+}
+.fa-phone{
+    color: #fff;
+    font-size: 27px;
+    padding-top: 7px;
 }
