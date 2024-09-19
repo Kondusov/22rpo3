@@ -2,10 +2,10 @@
     max-height: 55px;
 }
 .big-banner{
-    min-height: 858px;
+    min-height: 503px;
     /* display: flex; */
     background: url('../img/big-banner-1.png') no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 .main-navigation a{
     color: #fff;
@@ -44,4 +44,75 @@ header{
     color: #fff;
     font-size: 27px;
     padding-top: 7px;
+}
+.text-header-banner{
+    text-align: center;
+    color: #fff;
+    margin-top: 10%;
+}
+.text-header-banner h2{
+    font-size: 3rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.text-header-banner p:first-child{
+    font-family: cursive;
+}
+.text-header-banner span{
+    white-space: pre;
+    text-decoration: line-through;
+}
+.text-header-banner button{
+    color: #fff;
+    background-color: #fa8507;
+    padding: 7px 21px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: #777 1px -1px 3px;
+}
+.text-header-banner button:hover{
+        color: #fa8507;
+        background-color: #fff;
+        transition: 1s;
+        cursor: pointer;
+}
+.our-story{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.block-our-story i{
+    font-size: 5rem;
+    color: #fa8507;
+    padding-top: 15px;
+
+}
+.our-story h2{
+    color: #00010a;
+    font-family: cursive;
+    font-size: 3rem;
+}
+.block-our-story h2 span{
+    color: #fa8507;
+}
+.block-our-story .main-text-p{
+    font-size: 1.5rem;
+}
+.block-our-story h5{
+    font-size: 3rem;
+    font-style: italic;
+    font-family: cursive;
+    margin: 0;
+}
+.block-our-story .col-9 p{
+    margin: 0;
+    font-size: 1.5rem;
+}
+.block-our-story .col-3 {
+    align-items: center;
+}
+.block-our-story .number p{
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: 600;
+    margin-top: 0;
 }
