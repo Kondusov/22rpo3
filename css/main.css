@@ -116,3 +116,65 @@ header{
     font-weight: 600;
     margin-top: 0;
 }
+.our-strength{
+    margin: 100px 0;
+}
+.our-strength .header-our-strange{
+    text-align: center;
+}
+.our-strength .header-our-strange h2{
+    text-align: center;
+    font-size: 3rem;
+    font-style: italic;
+    font-family: cursive;
+    margin-bottom: 0;
+}
+.our-strength h2 span{
+    color: #fa8507;
+}
+.our-strength .block-items{
+    margin: 70px;
+    justify-content: center;
+}
+.our-strength .block-items .item{
+    text-align: center;
+}
+.our-strength .block-items .item i{
+    font-size: 60px;
+    color: #fa8507;
+}
+.our-strength .block-items .item h3{
+    font-family: cursive;
+}
+.business-lunch{
+    background: url('../img/biznes-lanch.png');
+    margin: 70px 0;
+}
+.my-conainer{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5% 0 5% 0;
+}
+.my-text{
+    font-size: 2rem;
+    color: #fff;
+    width: 68%;
+    display: inline-block;
+}
+.my-button{
+    display: inline-block;
+    text-align: center;
+    vertical-align: baseline;
+    width: 28%;
+}
+.my-button button{
+    width: 8rem;
+    color: #fff;
+    background-color: #fa8507;
+    padding: 7px 21px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: #777 1px -1px 3px;
+    /* float: right; */
+}
