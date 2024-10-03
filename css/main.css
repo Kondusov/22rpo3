@@ -178,3 +178,70 @@ header{
     box-shadow: #777 1px -1px 3px;
     /* float: right; */
 }
+.my-button button:hover{
+    color: #fa8507;
+    background-color: #fff;
+    cursor: pointer;
+    transition: 0.8s;
+}
+.our-menu{
+
+}
+.our-menu .header{
+    text-align: center;
+}
+.our-menu .icon-block{
+    width: 50%;
+    border: #fff 2px solid;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.daily-offer .header{
+    margin-bottom: 75px;
+}
+.daily-offer .header h2{
+    text-align: center;
+    font-size: 1.8rem;
+    font-style: italic;
+    font-family: cursive;
+    margin-bottom: 0;
+}
+.daily-offer .my-conainer{
+    text-align: center;
+}
+.daily-offer .my-conainer .flex-box{
+    display: flex;
+    max-height: 550px;
+}
+.daily-offer .img-bunner, .daily-offer .item-block{
+
+}
+.daily-offer .my-conainer .item-block .item-text p:first-child{
+    font-size: 1.2rem;
+}
+.daily-offer .my-conainer .item-block .item-text p:last-child{
+    color: #777;
+}
+.daily-offer .my-conainer .item-block .item{
+    display: flex;
+    border: 1px #999 solid;
+}
+.daily-offer .img-bunner{
+    background-image: url(../img/daily-offer-img.png);
+    width: 516px;
+    height: 431px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.daily-offer .my-conainer .item-block{
+    display: flex;
+}
+.daily-offer .my-conainer .item-block .item-icon i{
+    color: #fa8507;
+    position: relative;
+    top: 40%;
+    right: -16px;
+    font-size: 1.8rem;
+}
