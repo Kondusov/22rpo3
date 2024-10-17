@@ -358,3 +358,56 @@ header{
     color: #bcbcc0;
 }
 /* END Arseniy code */
+.Galei .header
+{
+    text-align: center;
+    margin: 90px 0;
+    font-style: italic;
+
+
+
+
+}
+.Galei .items-food
+{
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.Galei .item
+{
+    padding: 10px 10px;
+    width: 25%;
+    box-sizing: border-box;
+    position: relative;
+
+}
+.Galei .item img
+{
+    width: 100%;
+
+
+}
+/* hover-block */
+ .hover-block{
+    position: absolute;
+    z-index: -1;
+    top: 15px;
+    left: 15px;
+    color: #fff;
+    background-color: #0e0c0cad;
+    padding: 15px;
+    width: 76%;
+    height: 71%;
+    opacity: 0;
+    transition: opacity 0.8s;
+ }
+ .Galei .item:hover{
+    .hover-block{
+        z-index: 3;
+        opacity: 1;
+    }
+ }
+
+/* END hover-block */
