@@ -19,7 +19,7 @@
                 </div>
                 <nav class="col-6 main-navigation">
                     <a class="link-main-page" href="">Главная</a>
-                    <a href="">Наши блюда</a>
+                    <a href="#gallery">Наши блюда</a>
                     <a href="">Блог</a>
                     <a href="">О нас</a>
                     <a href="">Контакты</a>
@@ -244,7 +244,7 @@
             
         </section>
         <!--  Arseniy code  -->
-        <section class="Galei">
+        <section class="Galei" id="gallery">
             <div class="header">
                 <h2>Галерея нашей еды</h2>
                 <img src="img/sec-title-1.png">
@@ -308,5 +308,37 @@
                 </div>
             </div>
         </section>
+    <section class="reservation">
+        <div class="header">
+            <h2>Бронирование</h2>
+            <img src="img/sec-title-1.png" alt="">
+        </div>
+        <div class="bron-carg">
+            <div class="card-location"></div>
+            <div class="card-form"></div>
+        </div>
+    </section>
+    <input type="submit" form="main-form">
+    <form id="main-form" action="https://ya.ru/search/" method="get">
+        <!-- <input type="hidden" name="checking-bot" required>
+        <p>
+          <label for="name">Введите имя:</label>
+          <input placeholder="Ваше имя здесь будет" type="text" name="name" id="name" >
+        </p>
+        <p>
+          <label for="email">Ваш возраст:</label>
+          <input type="number" name="age" id="age" required>
+        </p>
+        <p> -->
+            <label for="message">Ваше сообщеие:</label>
+            <input type="text" name="text" id="message" required>
+            <!-- <textarea id="story" name="story" rows="1" cols="33">
+                It was a dark and stormy night...
+                </textarea>
+          </p> -->
+        <button type="submit">Отправить</button>
+        
+      </form>
+      
 </body>
 </html>
